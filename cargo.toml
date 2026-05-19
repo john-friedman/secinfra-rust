@@ -6,8 +6,7 @@ description = "A package to work with SEC data."
 license = "MIT"
 repository = "https://github.com/john-friedman/secinfra-rust"
 readme = "readme.md"
-keywords = ["PLACEHOLDER"]
-categories = ["PLACEHOLDER"]
+keywords = ["sec", "edgar", "filings", "securities and exchanges commission", "datamule"]
 
 [dependencies]
 anyhow = "1"
