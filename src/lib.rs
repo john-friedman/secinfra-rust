@@ -10,3 +10,4 @@ pub use monitor::Monitor;
 pub use common::sec_user_agent;
 pub use efts::fetch_date;
 pub use rate_limiter::RateLimiter;
+pub use reqwest;

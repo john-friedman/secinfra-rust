@@ -1,13 +1,14 @@
 use chrono::{DateTime, Utc};
+use serde::{Deserialize, Serialize};
 
-#[derive(Debug, Clone, Copy, PartialEq, Eq)]
+#[derive(Debug, Clone, Copy, PartialEq, Eq, Serialize, Deserialize)]
 pub enum SubmissionSource {
     Rss,
     Efts,
 }
 
 /// A single SEC filing.
-#[derive(Debug, Clone)]
+#[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Submission {
     pub accession: u64,
     pub submission_type: String,
