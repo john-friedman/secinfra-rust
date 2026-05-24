@@ -249,7 +249,9 @@ impl Write for ChannelWriter {
             self.compressed_bytes += chunk.len();
             self.tx
                 .blocking_send(Ok(Bytes::from(chunk)))
-                .map_err(|_| io::Error::new(io::ErrorKind::BrokenPipe, "compressed stream closed"))?;
+                .map_err(|_| {
+                    io::Error::new(io::ErrorKind::BrokenPipe, "compressed stream closed")
+                })?;
         }
 
         Ok(buf.len())

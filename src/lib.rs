@@ -11,8 +11,8 @@ pub use common::{sec_filing_date_now, Submission, SubmissionSource};
 pub use common::sec_user_agent;
 pub use compression_util::{
     compress_byte_stream_async, compress_byte_stream_to_stream, compress_bytes,
-    compress_bytes_async, CompressedByteStream, CompressedBytes,
-    CompressedStreamStats, CompressionType, IoByteStream,
+    compress_bytes_async, CompressedByteStream, CompressedBytes, CompressedStreamStats,
+    CompressionType, IoByteStream,
 };
 pub use construct_urls::{
     construct_document_url, construct_folder_url, construct_index_url, construct_sgml_url,
