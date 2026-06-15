@@ -455,7 +455,7 @@ fn sanitize_filename(name: &[u8], index: usize) -> String {
 
     let sanitized = sanitized.trim().trim_matches('.').to_string();
     if sanitized.is_empty() {
-        format!("doc_{index}.bin")
+        format!("{index}.txt")
     } else {
         sanitized
     }
