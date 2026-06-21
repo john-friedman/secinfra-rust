@@ -264,15 +264,7 @@ fn document_looks_like_xbrl(doc: &FilingDocument) -> bool {
     let document_type = doc.document_type.to_ascii_uppercase();
     let filename = doc.filename.to_ascii_lowercase();
 
-    document_type.starts_with("EX-101")
-        || document_type == "XML"
-        || filename.ends_with(".xbrl")
-        || filename.ends_with(".xml")
-        || filename.ends_with(".xsd")
-        || filename.ends_with(".cal")
-        || filename.ends_with(".def")
-        || filename.ends_with(".lab")
-        || filename.ends_with(".pre")
+    matches!(document_type.as_str(), "EX-100.INS" | "EX-101.INS") || filename.ends_with("_htm.xml")
 }
 
 fn metadata_json(events: &[SubmissionEvent], documents: &[PreparedDocument]) -> Vec<u8> {

@@ -9,6 +9,7 @@ mod monitor;
 mod rate_limiter;
 mod rss;
 mod secsgmlc;
+mod xbrl;
 
 pub use common::sec_user_agent;
 pub use common::{Submission, SubmissionSource, sec_filing_date_now};
@@ -33,3 +34,7 @@ pub use monitor::{AccessionCache, Monitor};
 pub use rate_limiter::RateLimiter;
 pub use reqwest;
 pub use secsgmlc::{ParsedSgml, ParsedSubmissionMetadata, SubmissionEvent, SubmissionEventType};
+pub use xbrl::{
+    SimpleXbrlRecord, XbrlFact, XbrlFileType, XbrlMap, construct_simple_xbrl,
+    parse_extracted_inline_xbrl, parse_inline_xbrl, parse_xbrl,
+};
