@@ -1,6 +1,6 @@
 [package]
 name = "secinfra"
-version = "0.1.18"
+version = "0.1.19"
 edition = "2024"
 build = "build.rs"
 description = "A package to work with SEC data."
@@ -19,12 +19,12 @@ bytes = "1"
 chrono = { version = "0.4", features = ["serde"] }
 chrono-tz = "0.10"
 futures = "0.3"
-indexmap = "2"
+indexmap = { version = "2", features = ["serde"] }
 parquet = { version = "56", features = ["arrow"] }
 quick-xml = { version = "0.36", features = ["async-tokio"] }
 reqwest = { version = "0.12", default-features = false, features = ["json", "rustls-tls"] }
 serde = { version = "1", features = ["derive"] }
-serde_json = "1"
+serde_json = { version = "1", features = ["preserve_order"] }
 tokio = { version = "1", features = ["macros", "rt-multi-thread", "sync", "time"] }
 tracing = "0.1"
 zip = { version = "2", default-features = false, features = ["deflate"] }

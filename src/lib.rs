@@ -10,6 +10,7 @@ mod rate_limiter;
 mod rss;
 mod secsgmlc;
 mod xbrl;
+mod xml2tables;
 
 pub use common::sec_user_agent;
 pub use common::{Submission, SubmissionSource, sec_filing_date_now};
@@ -37,4 +38,9 @@ pub use secsgmlc::{ParsedSgml, ParsedSubmissionMetadata, SubmissionEvent, Submis
 pub use xbrl::{
     SimpleXbrlRecord, XbrlFact, XbrlFileType, XbrlMap, construct_simple_xbrl,
     parse_extracted_inline_xbrl, parse_inline_xbrl, parse_xbrl,
+};
+pub use xml2tables::{
+    StructuredXmlTableSpec, XmlMappingDocument, XmlPathList, XmlRow, XmlTable, XmlTableSpec,
+    XmlTables, mapping_json_for_document_type, parse_mapping_json, parse_xml_tables,
+    parse_xml_tables_with_mapping, supported_xml_document_types,
 };
