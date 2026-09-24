@@ -235,7 +235,7 @@ fn monitor_submissions_stream(
             // RSS poll
             if use_rss && now.duration_since(last_poll) >= poll_interval {
                 debug!("Running RSS poll");
-                match poll_rss(&client, &limiter).await {
+                match poll_rss(&limiter).await {
                     Ok(batch) => {
                         let count = batch.len();
                         let new = accession_cache.filter_new(batch).await;

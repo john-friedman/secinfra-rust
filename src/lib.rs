@@ -36,6 +36,7 @@ pub use monitor::{AccessionCache, Monitor};
 pub use parse_index_page::{IndexPage, IndexPageDocument, IndexPageFiler, parse_index_page};
 pub use rate_limiter::RateLimiter;
 pub use reqwest;
+pub use rss::poll_rss;
 pub use secsgmlc::{ParsedSgml, ParsedSubmissionMetadata, SubmissionEvent, SubmissionEventType};
 pub use xbrl::{
     SimpleXbrlRecord, XbrlFact, XbrlFileType, XbrlMap, construct_simple_xbrl,

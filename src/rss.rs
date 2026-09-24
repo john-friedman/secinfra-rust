@@ -1,9 +1,9 @@
 use quick_xml::Reader;
 use quick_xml::events::Event;
-use reqwest::Client;
+use reqwest::ClientBuilder;
 use tracing::{debug, error, warn};
 
-use crate::common::{Submission, SubmissionSource};
+use crate::common::{Submission, SubmissionSource, sec_user_agent};
 use crate::format_accession::format_accession_str;
 use crate::rate_limiter::RateLimiter;
 
@@ -140,7 +140,7 @@ fn parse_rss(xml: &str) -> Vec<Submission> {
                         // "Filed:</b> 2026-05-18 <b>AccNo:..."
                         if let Some(pos) = summary_text.find("Filed:</b>") {
                             let after = summary_text[pos + 10..].trim();
-                            current_date = after[..10].to_string();
+                            current_date = after.get(..10).unwrap_or_default().to_string();
                         }
                         current_size_bytes = parse_summary_size_bytes(&summary_text);
                     }
@@ -183,9 +183,14 @@ fn parse_rss(xml: &str) -> Vec<Submission> {
 }
 
 /// Fetch and parse the SEC RSS feed, returning all current submissions.
-pub async fn poll_rss(client: &Client, limiter: &RateLimiter) -> anyhow::Result<Vec<Submission>> {
+pub async fn poll_rss(limiter: &RateLimiter) -> anyhow::Result<Vec<Submission>> {
     limiter.acquire().await;
     debug!(url = RSS_URL, "Polling SEC RSS feed");
+    let client = ClientBuilder::new()
+        .user_agent(sec_user_agent())
+        .pool_max_idle_per_host(0)
+        .connection_verbose(false)
+        .build()?;
     let resp = client.get(RSS_URL).send().await?;
     let status = resp.status();
     let xml = resp.text().await?;
@@ -194,6 +199,7 @@ pub async fn poll_rss(client: &Client, limiter: &RateLimiter) -> anyhow::Result<
         debug!(%status, bytes = xml.len(), "Fetched SEC RSS feed");
     } else {
         warn!(%status, bytes = xml.len(), "Fetched SEC RSS feed with non-success status");
+        anyhow::bail!("SEC RSS returned {status}");
     }
 
     Ok(parse_rss(&xml))
