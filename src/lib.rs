@@ -5,6 +5,7 @@ mod construct_submissions_metadata;
 mod construct_urls;
 mod efts;
 mod filing_archive;
+mod flatten_metadata;
 mod format_accession;
 mod monitor;
 mod parse_index_page;
@@ -51,3 +52,5 @@ pub use xml2tables::{
     XmlTables, mapping_json_for_document_type, parse_mapping_json, parse_xml_tables,
     parse_xml_tables_with_mapping, supported_xml_document_types,
 };
+
+pub use flatten_metadata::{flatten_metadata, MetadataRow, MetadataTable, MetadataValue};

@@ -1,0 +1,1136 @@
+{
+  "filings": {
+    "fields": [
+      {
+        "field": "/abs-asset-class",
+        "storage": "list",
+        "column": "abs_asset_class__list"
+      },
+      {
+        "field": "/abs-asset-class",
+        "storage": "string",
+        "column": "abs_asset_class"
+      },
+      {
+        "field": "/abs-rule",
+        "storage": "string",
+        "column": "abs_rule"
+      },
+      {
+        "field": "/abs-sub-asset-class",
+        "storage": "string",
+        "column": "abs_sub_asset_class"
+      },
+      {
+        "field": "/acceptance-datetime",
+        "storage": "string",
+        "column": "acceptance_datetime"
+      },
+      {
+        "field": "/accession-number",
+        "storage": "list",
+        "column": "reported_accession__list"
+      },
+      {
+        "field": "/accession-number",
+        "storage": "string",
+        "column": "reported_accession"
+      },
+      {
+        "field": "/action-date",
+        "storage": "string",
+        "column": "action_date"
+      },
+      {
+        "field": "/business-address/city",
+        "storage": "string",
+        "column": "business_address__city"
+      },
+      {
+        "field": "/business-address/phone",
+        "storage": "string",
+        "column": "business_address__phone"
+      },
+      {
+        "field": "/business-address/state",
+        "storage": "string",
+        "column": "business_address__state"
+      },
+      {
+        "field": "/business-address/street1",
+        "storage": "string",
+        "column": "business_address__street1"
+      },
+      {
+        "field": "/business-address/street2",
+        "storage": "string",
+        "column": "business_address__street2"
+      },
+      {
+        "field": "/business-address/zip",
+        "storage": "string",
+        "column": "business_address__zip"
+      },
+      {
+        "field": "/calendar-year-ending",
+        "storage": "string",
+        "column": "calendar_year_ending"
+      },
+      {
+        "field": "/category",
+        "storage": "string",
+        "column": "category"
+      },
+      {
+        "field": "/cik",
+        "storage": "list",
+        "column": "cik__list"
+      },
+      {
+        "field": "/cik",
+        "storage": "string",
+        "column": "cik"
+      },
+      {
+        "field": "/class-contract-id",
+        "storage": "list",
+        "column": "class_contract_id__list"
+      },
+      {
+        "field": "/class-contract-id",
+        "storage": "string",
+        "column": "class_contract_id"
+      },
+      {
+        "field": "/class-contract-name",
+        "storage": "list",
+        "column": "class_contract_name__list"
+      },
+      {
+        "field": "/class-contract-name",
+        "storage": "string",
+        "column": "class_contract_name"
+      },
+      {
+        "field": "/class-contract-ticker-symbol",
+        "storage": "list",
+        "column": "class_contract_ticker_symbol__list"
+      },
+      {
+        "field": "/class-contract-ticker-symbol",
+        "storage": "string",
+        "column": "class_contract_ticker_symbol"
+      },
+      {
+        "field": "/company-data/assigned-sic",
+        "storage": "string",
+        "column": "company_data__assigned_sic"
+      },
+      {
+        "field": "/company-data/cik",
+        "storage": "string",
+        "column": "company_data__cik"
+      },
+      {
+        "field": "/company-data/conformed-name",
+        "storage": "string",
+        "column": "company_data__conformed_name"
+      },
+      {
+        "field": "/company-data/fiscal-year-end",
+        "storage": "string",
+        "column": "company_data__fiscal_year_end"
+      },
+      {
+        "field": "/company-data/irs-number",
+        "storage": "string",
+        "column": "company_data__irs_number"
+      },
+      {
+        "field": "/company-data/state-of-incorporation",
+        "storage": "string",
+        "column": "company_data__state_of_incorporation"
+      },
+      {
+        "field": "/confirming-copy/abs-asset-class",
+        "storage": "string",
+        "column": "confirming_copy__abs_asset_class"
+      },
+      {
+        "field": "/confirming-copy/date-of-filing-date-change",
+        "storage": "string",
+        "column": "confirming_copy__date_of_filing_date_change"
+      },
+      {
+        "field": "/confirming-copy/depositor-cik",
+        "storage": "string",
+        "column": "confirming_copy__depositor_cik"
+      },
+      {
+        "field": "/confirming-copy/effectiveness-date",
+        "storage": "string",
+        "column": "confirming_copy__effectiveness_date"
+      },
+      {
+        "field": "/confirming-copy/filing-date",
+        "storage": "string",
+        "column": "confirming_copy__filing_date"
+      },
+      {
+        "field": "/confirming-copy/group-members",
+        "storage": "list",
+        "column": "confirming_copy__group_members__list"
+      },
+      {
+        "field": "/confirming-copy/group-members",
+        "storage": "string",
+        "column": "confirming_copy__group_members"
+      },
+      {
+        "field": "/confirming-copy/items",
+        "storage": "list",
+        "column": "confirming_copy__items__list"
+      },
+      {
+        "field": "/confirming-copy/items",
+        "storage": "string",
+        "column": "confirming_copy__items"
+      },
+      {
+        "field": "/confirming-copy/multi-accession-numbers/accession-number",
+        "storage": "list",
+        "column": "confirming_copy__multi_accession_numbers__accession_number__list"
+      },
+      {
+        "field": "/confirming-copy/multi-accession-numbers/accession-number",
+        "storage": "string",
+        "column": "confirming_copy__multi_accession_numbers__accession_number"
+      },
+      {
+        "field": "/confirming-copy/period",
+        "storage": "string",
+        "column": "confirming_copy__period"
+      },
+      {
+        "field": "/confirming-copy/period-start",
+        "storage": "string",
+        "column": "confirming_copy__period_start"
+      },
+      {
+        "field": "/confirming-copy/public-document-count",
+        "storage": "string",
+        "column": "confirming_copy__public_document_count"
+      },
+      {
+        "field": "/confirming-copy/series-and-classes-contracts-data/new-series-and-classes-contracts/owner-cik",
+        "storage": "string",
+        "column": "confirming_copy__series_and_classes_contracts_data__new_series_and_classes_contracts__owner_cik"
+      },
+      {
+        "field": "/confirming-copy/sponsor-cik",
+        "storage": "string",
+        "column": "confirming_copy__sponsor_cik"
+      },
+      {
+        "field": "/confirming-copy/sros",
+        "storage": "list",
+        "column": "confirming_copy__sros__list"
+      },
+      {
+        "field": "/confirming-copy/sros",
+        "storage": "string",
+        "column": "confirming_copy__sros"
+      },
+      {
+        "field": "/date-of-filing-date-change",
+        "storage": "list",
+        "column": "date_of_filing_date_change__list"
+      },
+      {
+        "field": "/date-of-filing-date-change",
+        "storage": "string",
+        "column": "date_of_filing_date_change"
+      },
+      {
+        "field": "/depositor-cik",
+        "storage": "string",
+        "column": "depositor_cik"
+      },
+      {
+        "field": "/depositor-file-number",
+        "storage": "string",
+        "column": "depositor_file_number"
+      },
+      {
+        "field": "/documents",
+        "storage": "list",
+        "column": "documents__list"
+      },
+      {
+        "field": "/effectiveness-date",
+        "storage": "list",
+        "column": "effectiveness_date__list"
+      },
+      {
+        "field": "/effectiveness-date",
+        "storage": "string",
+        "column": "effectiveness_date"
+      },
+      {
+        "field": "/file5/business-address/city",
+        "storage": "string",
+        "column": "file5__business_address__city"
+      },
+      {
+        "field": "/file5/business-address/phone",
+        "storage": "string",
+        "column": "file5__business_address__phone"
+      },
+      {
+        "field": "/file5/business-address/state",
+        "storage": "string",
+        "column": "file5__business_address__state"
+      },
+      {
+        "field": "/file5/business-address/street1",
+        "storage": "string",
+        "column": "file5__business_address__street1"
+      },
+      {
+        "field": "/file5/business-address/zip",
+        "storage": "string",
+        "column": "file5__business_address__zip"
+      },
+      {
+        "field": "/file5/filing-values/act",
+        "storage": "string",
+        "column": "file5__filing_values__act"
+      },
+      {
+        "field": "/file5/filing-values/file-number",
+        "storage": "string",
+        "column": "file5__filing_values__file_number"
+      },
+      {
+        "field": "/file5/filing-values/film-number",
+        "storage": "string",
+        "column": "file5__filing_values__film_number"
+      },
+      {
+        "field": "/file5/filing-values/form-type",
+        "storage": "string",
+        "column": "file5__filing_values__form_type"
+      },
+      {
+        "field": "/file5/mail-address/city",
+        "storage": "string",
+        "column": "file5__mail_address__city"
+      },
+      {
+        "field": "/file5/mail-address/state",
+        "storage": "string",
+        "column": "file5__mail_address__state"
+      },
+      {
+        "field": "/file5/mail-address/street1",
+        "storage": "string",
+        "column": "file5__mail_address__street1"
+      },
+      {
+        "field": "/file5/mail-address/zip",
+        "storage": "string",
+        "column": "file5__mail_address__zip"
+      },
+      {
+        "field": "/filed-pursuant-to-general-instruction-a2",
+        "storage": "string",
+        "column": "filed_pursuant_to_general_instruction_a2"
+      },
+      {
+        "field": "/filing-date",
+        "storage": "list",
+        "column": "filing_date__list"
+      },
+      {
+        "field": "/filing-date",
+        "storage": "string",
+        "column": "filing_date"
+      },
+      {
+        "field": "/filing-values/act",
+        "storage": "string",
+        "column": "filing_values__act"
+      },
+      {
+        "field": "/filing-values/act/file-number",
+        "storage": "string",
+        "column": "filing_values__act__file_number"
+      },
+      {
+        "field": "/filing-values/act/film-number",
+        "storage": "string",
+        "column": "filing_values__act__film_number"
+      },
+      {
+        "field": "/filing-values/file-number",
+        "storage": "string",
+        "column": "filing_values__file_number"
+      },
+      {
+        "field": "/filing-values/film-number",
+        "storage": "string",
+        "column": "filing_values__film_number"
+      },
+      {
+        "field": "/filing-values/form-type",
+        "storage": "string",
+        "column": "filing_values__form_type"
+      },
+      {
+        "field": "/fiscal-year-end",
+        "storage": "list",
+        "column": "fiscal_year_end__list"
+      },
+      {
+        "field": "/fiscal-year-end",
+        "storage": "string",
+        "column": "fiscal_year_end"
+      },
+      {
+        "field": "/group-members",
+        "storage": "list",
+        "column": "group_members__list"
+      },
+      {
+        "field": "/group-members",
+        "storage": "string",
+        "column": "group_members"
+      },
+      {
+        "field": "/ims-document",
+        "storage": "string",
+        "column": "ims_document"
+      },
+      {
+        "field": "/ims-header",
+        "storage": "string",
+        "column": "ims_header"
+      },
+      {
+        "field": "/irs-number",
+        "storage": "list",
+        "column": "irs_number__list"
+      },
+      {
+        "field": "/irs-number",
+        "storage": "string",
+        "column": "irs_number"
+      },
+      {
+        "field": "/is-filer-a-new-registrant",
+        "storage": "string",
+        "column": "is_filer_a_new_registrant"
+      },
+      {
+        "field": "/is-filer-a-well-known-seasoned-issuer",
+        "storage": "string",
+        "column": "is_filer_a_well_known_seasoned_issuer"
+      },
+      {
+        "field": "/is-fund-24f2-eligible",
+        "storage": "string",
+        "column": "is_fund_24f2_eligible"
+      },
+      {
+        "field": "/issuing-entity-cik",
+        "storage": "string",
+        "column": "issuing_entity_cik"
+      },
+      {
+        "field": "/issuing-entity-file-number",
+        "storage": "string",
+        "column": "issuing_entity_file_number"
+      },
+      {
+        "field": "/issuing-entity-name",
+        "storage": "string",
+        "column": "issuing_entity_name"
+      },
+      {
+        "field": "/item-information",
+        "storage": "list",
+        "column": "item_information__list"
+      },
+      {
+        "field": "/item-information",
+        "storage": "string",
+        "column": "item_information"
+      },
+      {
+        "field": "/item-number",
+        "storage": "list",
+        "column": "item_number__list"
+      },
+      {
+        "field": "/item-number",
+        "storage": "string",
+        "column": "item_number"
+      },
+      {
+        "field": "/item-period",
+        "storage": "list",
+        "column": "item_period__list"
+      },
+      {
+        "field": "/item-period",
+        "storage": "string",
+        "column": "item_period"
+      },
+      {
+        "field": "/items",
+        "storage": "list",
+        "column": "items__list"
+      },
+      {
+        "field": "/items",
+        "storage": "string",
+        "column": "items"
+      },
+      {
+        "field": "/l-add/mail-address/city",
+        "storage": "string",
+        "column": "l_add__mail_address__city"
+      },
+      {
+        "field": "/l-add/mail-address/state",
+        "storage": "string",
+        "column": "l_add__mail_address__state"
+      },
+      {
+        "field": "/l-add/mail-address/street1",
+        "storage": "string",
+        "column": "l_add__mail_address__street1"
+      },
+      {
+        "field": "/l-add/mail-address/zip",
+        "storage": "string",
+        "column": "l_add__mail_address__zip"
+      },
+      {
+        "field": "/ma-i-individual",
+        "storage": "string",
+        "column": "ma_i_individual"
+      },
+      {
+        "field": "/mail-address/city",
+        "storage": "string",
+        "column": "mail_address__city"
+      },
+      {
+        "field": "/mail-address/state",
+        "storage": "string",
+        "column": "mail_address__state"
+      },
+      {
+        "field": "/mail-address/street1",
+        "storage": "string",
+        "column": "mail_address__street1"
+      },
+      {
+        "field": "/mail-address/street2",
+        "storage": "string",
+        "column": "mail_address__street2"
+      },
+      {
+        "field": "/mail-address/zip",
+        "storage": "string",
+        "column": "mail_address__zip"
+      },
+      {
+        "field": "/mic-info",
+        "storage": "string",
+        "column": "mic_info"
+      },
+      {
+        "field": "/multi-accession-numbers/accession-number",
+        "storage": "list",
+        "column": "multi_accession_numbers__accession_number__list"
+      },
+      {
+        "field": "/multi-accession-numbers/accession-number",
+        "storage": "string",
+        "column": "multi_accession_numbers__accession_number"
+      },
+      {
+        "field": "/no-annual-activity",
+        "storage": "string",
+        "column": "no_annual_activity"
+      },
+      {
+        "field": "/no-initial-period-activity",
+        "storage": "string",
+        "column": "no_initial_period_activity"
+      },
+      {
+        "field": "/no-quarterly-activity",
+        "storage": "string",
+        "column": "no_quarterly_activity"
+      },
+      {
+        "field": "/originator-name",
+        "storage": "string",
+        "column": "originator_name"
+      },
+      {
+        "field": "/owner-cik",
+        "storage": "list",
+        "column": "owner_cik__list"
+      },
+      {
+        "field": "/owner-cik",
+        "storage": "string",
+        "column": "owner_cik"
+      },
+      {
+        "field": "/period",
+        "storage": "list",
+        "column": "period__list"
+      },
+      {
+        "field": "/period",
+        "storage": "string",
+        "column": "period"
+      },
+      {
+        "field": "/period-start",
+        "storage": "string",
+        "column": "period_start"
+      },
+      {
+        "field": "/previous-accession-number",
+        "storage": "string",
+        "column": "previous_accession_number"
+      },
+      {
+        "field": "/privacy-enhanced-message",
+        "storage": "string",
+        "column": "privacy_enhanced_message"
+      },
+      {
+        "field": "/proc-type",
+        "storage": "string",
+        "column": "proc_type"
+      },
+      {
+        "field": "/public-document-count",
+        "storage": "list",
+        "column": "public_document_count__list"
+      },
+      {
+        "field": "/public-document-count",
+        "storage": "string",
+        "column": "public_document_count"
+      },
+      {
+        "field": "/public-reference-accession-number",
+        "storage": "string",
+        "column": "public_reference_accession_number"
+      },
+      {
+        "field": "/public-rel-date",
+        "storage": "string",
+        "column": "public_rel_date"
+      },
+      {
+        "field": "/received-date",
+        "storage": "string",
+        "column": "received_date"
+      },
+      {
+        "field": "/reference-462b",
+        "storage": "string",
+        "column": "reference_462b"
+      },
+      {
+        "field": "/references-429",
+        "storage": "list",
+        "column": "references_429__list"
+      },
+      {
+        "field": "/references-429",
+        "storage": "string",
+        "column": "references_429"
+      },
+      {
+        "field": "/registered-entity",
+        "storage": "string",
+        "column": "registered_entity"
+      },
+      {
+        "field": "/relationship",
+        "storage": "list",
+        "column": "relationship__list"
+      },
+      {
+        "field": "/relationship",
+        "storage": "string",
+        "column": "relationship"
+      },
+      {
+        "field": "/resource-ext-issuer",
+        "storage": "string",
+        "column": "resource_ext_issuer"
+      },
+      {
+        "field": "/rule-name",
+        "storage": "list",
+        "column": "rule_name__list"
+      },
+      {
+        "field": "/rule-name",
+        "storage": "string",
+        "column": "rule_name"
+      },
+      {
+        "field": "/rule/item/item-number",
+        "storage": "string",
+        "column": "rule__item__item_number"
+      },
+      {
+        "field": "/rule/item/item-period",
+        "storage": "string",
+        "column": "rule__item__item_period"
+      },
+      {
+        "field": "/rule/rule-name",
+        "storage": "string",
+        "column": "rule__rule_name"
+      },
+      {
+        "field": "/securitizer-cik",
+        "storage": "string",
+        "column": "securitizer_cik"
+      },
+      {
+        "field": "/securitizer-file-number",
+        "storage": "string",
+        "column": "securitizer_file_number"
+      },
+      {
+        "field": "/series-and-classes-contracts-data/merger-series-and-classes-contracts/merger/acquiring-data/cik",
+        "storage": "string",
+        "column": "series_and_classes_contracts_data__merger_series_and_classes_contracts__merger__acquiring_data__cik"
+      },
+      {
+        "field": "/series-and-classes-contracts-data/merger-series-and-classes-contracts/merger/target-data/cik",
+        "storage": "string",
+        "column": "series_and_classes_contracts_data__merger_series_and_classes_contracts__merger__target_data__cik"
+      },
+      {
+        "field": "/series-and-classes-contracts-data/new-series-and-classes-contracts/new-classes-contracts/series-id",
+        "storage": "string",
+        "column": "series_and_classes_contracts_data__new_series_and_classes_contracts__new_classes__3c865337c124"
+      },
+      {
+        "field": "/series-and-classes-contracts-data/new-series-and-classes-contracts/new-classes-contracts/series-name",
+        "storage": "string",
+        "column": "series_and_classes_contracts_data__new_series_and_classes_contracts__new_classes__460b17cbe862"
+      },
+      {
+        "field": "/series-and-classes-contracts-data/new-series-and-classes-contracts/owner-cik",
+        "storage": "string",
+        "column": "series_and_classes_contracts_data__new_series_and_classes_contracts__owner_cik"
+      },
+      {
+        "field": "/series-id",
+        "storage": "list",
+        "column": "series_id__list"
+      },
+      {
+        "field": "/series-id",
+        "storage": "string",
+        "column": "series_id"
+      },
+      {
+        "field": "/series-name",
+        "storage": "list",
+        "column": "series_name__list"
+      },
+      {
+        "field": "/series-name",
+        "storage": "string",
+        "column": "series_name"
+      },
+      {
+        "field": "/sponsor-cik",
+        "storage": "string",
+        "column": "sponsor_cik"
+      },
+      {
+        "field": "/sros",
+        "storage": "list",
+        "column": "sros__list"
+      },
+      {
+        "field": "/sros",
+        "storage": "string",
+        "column": "sros"
+      },
+      {
+        "field": "/state-of-incorporation",
+        "storage": "list",
+        "column": "state_of_incorporation__list"
+      },
+      {
+        "field": "/state-of-incorporation",
+        "storage": "string",
+        "column": "state_of_incorporation"
+      },
+      {
+        "field": "/type",
+        "storage": "list",
+        "column": "type__list"
+      },
+      {
+        "field": "/type",
+        "storage": "string",
+        "column": "type"
+      },
+      {
+        "field": "/under-writer-cik",
+        "storage": "string",
+        "column": "under_writer_cik"
+      },
+      {
+        "field": "/withdrawn-accession-number",
+        "storage": "string",
+        "column": "withdrawn_accession_number"
+      }
+    ]
+  },
+  "documents": {
+    "fields": [
+      {
+        "field": "/description",
+        "storage": "string",
+        "column": "description"
+      },
+      {
+        "field": "/filename",
+        "storage": "string",
+        "column": "filename"
+      },
+      {
+        "field": "/sequence",
+        "storage": "string",
+        "column": "sequence"
+      },
+      {
+        "field": "/type",
+        "storage": "string",
+        "column": "type"
+      }
+    ]
+  },
+  "entities": {
+    "fields": [
+      {
+        "field": "/business-address/address-is-a-non-us-location",
+        "storage": "string",
+        "column": "business_address__address_is_a_non_us_location"
+      },
+      {
+        "field": "/business-address/city",
+        "storage": "string",
+        "column": "business_address__city"
+      },
+      {
+        "field": "/business-address/non-us-state-territory",
+        "storage": "string",
+        "column": "business_address__non_us_state_territory"
+      },
+      {
+        "field": "/business-address/phone",
+        "storage": "string",
+        "column": "business_address__phone"
+      },
+      {
+        "field": "/business-address/province-country",
+        "storage": "string",
+        "column": "business_address__province_country"
+      },
+      {
+        "field": "/business-address/state",
+        "storage": "list",
+        "column": "business_address__state__list"
+      },
+      {
+        "field": "/business-address/state",
+        "storage": "string",
+        "column": "business_address__state"
+      },
+      {
+        "field": "/business-address/street1",
+        "storage": "string",
+        "column": "business_address__street1"
+      },
+      {
+        "field": "/business-address/street2",
+        "storage": "string",
+        "column": "business_address__street2"
+      },
+      {
+        "field": "/business-address/zip",
+        "storage": "string",
+        "column": "business_address__zip"
+      },
+      {
+        "field": "/company-data/assigned-sic",
+        "storage": "string",
+        "column": "company_data__assigned_sic"
+      },
+      {
+        "field": "/company-data/conformed-name",
+        "storage": "string",
+        "column": "company_data__conformed_name"
+      },
+      {
+        "field": "/company-data/ein",
+        "storage": "string",
+        "column": "company_data__ein"
+      },
+      {
+        "field": "/company-data/fiscal-year-end",
+        "storage": "string",
+        "column": "company_data__fiscal_year_end"
+      },
+      {
+        "field": "/company-data/irs-number",
+        "storage": "string",
+        "column": "company_data__irs_number"
+      },
+      {
+        "field": "/company-data/legal-entity-identifier",
+        "storage": "string",
+        "column": "company_data__legal_entity_identifier"
+      },
+      {
+        "field": "/company-data/organization-name",
+        "storage": "string",
+        "column": "company_data__organization_name"
+      },
+      {
+        "field": "/company-data/relationship",
+        "storage": "string",
+        "column": "company_data__relationship"
+      },
+      {
+        "field": "/company-data/state-of-incorporation",
+        "storage": "string",
+        "column": "company_data__state_of_incorporation"
+      },
+      {
+        "field": "/date-changed",
+        "storage": "string",
+        "column": "date_changed"
+      },
+      {
+        "field": "/filed-pursuant-to-general-instruction-a2",
+        "storage": "string",
+        "column": "filed_pursuant_to_general_instruction_a2"
+      },
+      {
+        "field": "/filing-values/act",
+        "storage": "string",
+        "column": "filing_values__act"
+      },
+      {
+        "field": "/filing-values/file-number",
+        "storage": "string",
+        "column": "filing_values__file_number"
+      },
+      {
+        "field": "/filing-values/film-number",
+        "storage": "string",
+        "column": "filing_values__film_number"
+      },
+      {
+        "field": "/filing-values/form-type",
+        "storage": "string",
+        "column": "filing_values__form_type"
+      },
+      {
+        "field": "/former-conformed-name",
+        "storage": "string",
+        "column": "former_conformed_name"
+      },
+      {
+        "field": "/is-filer-a-new-registrant",
+        "storage": "string",
+        "column": "is_filer_a_new_registrant"
+      },
+      {
+        "field": "/is-filer-a-well-known-seasoned-issuer",
+        "storage": "string",
+        "column": "is_filer_a_well_known_seasoned_issuer"
+      },
+      {
+        "field": "/is-fund-24f2-eligible",
+        "storage": "string",
+        "column": "is_fund_24f2_eligible"
+      },
+      {
+        "field": "/mail-address/address-is-a-non-us-location",
+        "storage": "string",
+        "column": "mail_address__address_is_a_non_us_location"
+      },
+      {
+        "field": "/mail-address/city",
+        "storage": "string",
+        "column": "mail_address__city"
+      },
+      {
+        "field": "/mail-address/non-us-state-territory",
+        "storage": "string",
+        "column": "mail_address__non_us_state_territory"
+      },
+      {
+        "field": "/mail-address/province-country",
+        "storage": "string",
+        "column": "mail_address__province_country"
+      },
+      {
+        "field": "/mail-address/state",
+        "storage": "string",
+        "column": "mail_address__state"
+      },
+      {
+        "field": "/mail-address/street1",
+        "storage": "string",
+        "column": "mail_address__street1"
+      },
+      {
+        "field": "/mail-address/street2",
+        "storage": "string",
+        "column": "mail_address__street2"
+      },
+      {
+        "field": "/mail-address/zip",
+        "storage": "string",
+        "column": "mail_address__zip"
+      },
+      {
+        "field": "/owner-data/assigned-sic",
+        "storage": "string",
+        "column": "owner_data__assigned_sic"
+      },
+      {
+        "field": "/owner-data/conformed-name",
+        "storage": "string",
+        "column": "owner_data__conformed_name"
+      },
+      {
+        "field": "/owner-data/fiscal-year-end",
+        "storage": "string",
+        "column": "owner_data__fiscal_year_end"
+      },
+      {
+        "field": "/owner-data/legal-entity-identifier",
+        "storage": "string",
+        "column": "owner_data__legal_entity_identifier"
+      },
+      {
+        "field": "/owner-data/organization-name",
+        "storage": "string",
+        "column": "owner_data__organization_name"
+      },
+      {
+        "field": "/owner-data/state-of-incorporation",
+        "storage": "string",
+        "column": "owner_data__state_of_incorporation"
+      },
+      {
+        "field": "/series-and-classes-contracts-data/merger-series-and-classes-contracts/merger/acquiring-data/cik",
+        "storage": "string",
+        "column": "series_and_classes_contracts_data__merger_series_and_classes_contracts__merger__acquiring_data__cik"
+      },
+      {
+        "field": "/series-and-classes-contracts-data/merger-series-and-classes-contracts/merger/target-data/cik",
+        "storage": "string",
+        "column": "series_and_classes_contracts_data__merger_series_and_classes_contracts__merger__target_data__cik"
+      },
+      {
+        "field": "/series-and-classes-contracts-data/new-series-and-classes-contracts/new-classes-contracts/series-id",
+        "storage": "string",
+        "column": "series_and_classes_contracts_data__new_series_and_classes_contracts__new_classes__3c865337c124"
+      },
+      {
+        "field": "/series-and-classes-contracts-data/new-series-and-classes-contracts/new-classes-contracts/series-name",
+        "storage": "string",
+        "column": "series_and_classes_contracts_data__new_series_and_classes_contracts__new_classes__460b17cbe862"
+      },
+      {
+        "field": "/series-and-classes-contracts-data/new-series-and-classes-contracts/owner-cik",
+        "storage": "string",
+        "column": "series_and_classes_contracts_data__new_series_and_classes_contracts__owner_cik"
+      },
+      {
+        "field": "@entity_cik",
+        "storage": "string",
+        "column": "entity_cik"
+      }
+    ]
+  },
+  "former_companies": {
+    "fields": [
+      {
+        "field": "/date-changed",
+        "storage": "string",
+        "column": "date_changed"
+      },
+      {
+        "field": "/former-conformed-name",
+        "storage": "string",
+        "column": "former_conformed_name"
+      }
+    ]
+  },
+  "series": {
+    "fields": [
+      {
+        "field": "/owner-cik",
+        "storage": "string",
+        "column": "owner_cik"
+      },
+      {
+        "field": "/series-id",
+        "storage": "string",
+        "column": "series_id"
+      },
+      {
+        "field": "/series-name",
+        "storage": "string",
+        "column": "series_name"
+      }
+    ]
+  },
+  "classes": {
+    "fields": [
+      {
+        "field": "/class-contract-id",
+        "storage": "string",
+        "column": "class_contract_id"
+      },
+      {
+        "field": "/class-contract-name",
+        "storage": "string",
+        "column": "class_contract_name"
+      },
+      {
+        "field": "/class-contract-ticker-symbol",
+        "storage": "string",
+        "column": "class_contract_ticker_symbol"
+      }
+    ]
+  }
+}
