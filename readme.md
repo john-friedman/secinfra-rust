@@ -7,6 +7,11 @@ A package to work with SEC data. Rust rewrite of [datamule-python](https://githu
 [Construct filer metadata and name-history Parquet tables](docs/filer_metadata.md)
 from SEC bulk submissions data.
 
+## XBRL
+
+[Parse full XBRL facts and construct Simple XBRL records](docs/xbrl.md)
+from SEC inline HTML or extracted-inline XML.
+
 ## Future
 
 1. Entrypoints will be formalized and documented

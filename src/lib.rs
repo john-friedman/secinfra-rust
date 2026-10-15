@@ -44,8 +44,9 @@ pub use reqwest;
 pub use rss::poll_rss;
 pub use secsgmlc::{ParsedSgml, ParsedSubmissionMetadata, SubmissionEvent, SubmissionEventType};
 pub use xbrl::{
-    SimpleXbrlRecord, XbrlFact, XbrlFileType, XbrlMap, construct_simple_xbrl,
-    parse_extracted_inline_xbrl, parse_inline_xbrl, parse_xbrl,
+    SimpleXbrlRecord, XbrlContext, XbrlContextValue, XbrlDimension, XbrlDimensionType,
+    XbrlFact, XbrlFileType, XbrlMap, XbrlUnit,
+    construct_simple_xbrl, parse_extracted_inline_xbrl, parse_inline_xbrl, parse_xbrl,
 };
 pub use xml2tables::{
     StructuredXmlTableSpec, XmlMappingDocument, XmlPathList, XmlRow, XmlTable, XmlTableSpec,
